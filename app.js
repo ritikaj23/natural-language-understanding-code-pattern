@@ -9,6 +9,10 @@ require('dotenv').config({
   silent: true
 });
 
+const pEnv = process.env;
+pEnv.NATURAL_LANGUAGE_UNDERSTANDING_APIKEY = "your nlu api key";
+pEnv.NATURAL_LANGUAGE_UNDERSTANDING_URL = "your nlu url";
+
 let client;
 try {
   client = new NaturalLanguageUnderstandingV1({
