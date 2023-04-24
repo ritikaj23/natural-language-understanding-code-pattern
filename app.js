@@ -10,8 +10,8 @@ require('dotenv').config({
 });
 
 const pEnv = process.env;
-pEnv.NATURAL_LANGUAGE_UNDERSTANDING_APIKEY = "your nlu api key";
-pEnv.NATURAL_LANGUAGE_UNDERSTANDING_URL = "your nlu url";
+pEnv.NATURAL_LANGUAGE_UNDERSTANDING_APIKEY = "K1_z6t_8HbCINXWuDvCUykrHNIMsvQFVpmoKzpb7slKe";
+pEnv.NATURAL_LANGUAGE_UNDERSTANDING_URL = "https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/c8d40d5d-1975-489a-a4ff-9f9137e6c93f";
 
 let client;
 try {
